@@ -71,7 +71,7 @@ jobs:
       # Update README to close <details id=0> and open <details id=1>
       # and set STEP to '1'
       - name: Update to step 1
-        uses: chanelcolgate/git-workflow-team@v1.1.0
+        uses: chanelcolgate/git-workflow-team@main
         with:
           token: ${{ secrets.GITHUB_TOKEN  }}
           from_step: 0
