@@ -27,8 +27,8 @@ jobs:
     # 1. This repository isn't the template repository
     if: ${{ !github.event.repository.is_template }}
 
-    # We'll run Unbuntu for performance instead of Mac or Windows
-    runs_on: ubuntu-latest
+    # We'll run Unbuntu for performance instead of Mac or Windowi
+    runs-on: ubuntu-latest
 
     steps:
       # We 'll need to check out the repository so that we can edit the README'
