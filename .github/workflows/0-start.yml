@@ -25,6 +25,7 @@ jobs:
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
+    if: ${{ !github.event.repository.is_template }}
 
     # We'll run Unbuntu for performance instead of Mac or Windows
     runs_on: ubuntu-latest
