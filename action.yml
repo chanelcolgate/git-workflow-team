@@ -86,6 +86,6 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.token  }}
         FROM_STEP: ${{ inputs.from_step  }}
-        TO_STEP: ${{ input.to_step  }}
-        BRANCH_NAME: ${{ intputs.branch_name  }}
-        BASE_BRANCH_NAME: ${{ intputs.base_branch_name }}
+        TO_STEP: ${{ inputs.to_step  }}
+        BRANCH_NAME: ${{ inputs.branch_name  }}
+        BASE_BRANCH_NAME: ${{ inputs.base_branch_name }}
