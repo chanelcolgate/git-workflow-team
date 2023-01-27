@@ -17,4 +17,4 @@ jobs:
           npm install htmlhint -g
 
       - name: Lint with HTMLHint
-        run: htmlhint publish_packages/index.html
+        run: htmlhint publish-packages/index.html
