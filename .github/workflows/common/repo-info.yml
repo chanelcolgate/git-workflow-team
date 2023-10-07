@@ -1,7 +1,10 @@
 name: Repo Info with context
 
 on:
-  workflow_call:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
 
 jobs:
   info:
