@@ -1,0 +1,11 @@
+{
+    "name": "Chanelcolgate Info Workflow",
+    "description": "Chanelcolgate informational starter workflow",
+    "iconName": "check-square",
+    "categories": [
+        "Text"
+    ],
+    "filePatterns": [
+        ".*\\.md$"
+    ]
+}
